@@ -656,8 +656,8 @@ packages:
     resolution: {integrity: sha512-0O4/eEcmZCNUkpSuN/yYRkX6BAcK/sbnH0YYNuK3HX193QXaSBT60TUpvTpiRxI6zvIfYCDRl3rz63w8m/lEMg==}
     engines: {node: ^14.16.0 || >=16.0.0}
 
-  '@netlify/open-api@2.50.0':
-    resolution: {integrity: sha512-nvtP3GQqAg2fDCzZIz/PNIjgdQcbKRqJlRRQquRfBTP3DJi4254fMApWvBoj6+v07eowy2/t9xXHu+KRPw6iKw==}
+  '@netlify/open-api@2.52.0':
+    resolution: {integrity: sha512-QkWQu0vz3uBcxjSslA0N6Njo0x1ndkhEIVEmdwcmxfufX8wA0d9WjiU2sWuHYw11Mrf5pkMUQHvZy+6V4A9TYQ==}
     engines: {node: '>=14.8.0'}
 
   '@netlify/runtime-utils@1.3.1':
@@ -2011,8 +2011,8 @@ packages:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
 
-  devalue@5.6.3:
-    resolution: {integrity: sha512-nc7XjUU/2Lb+SvEFVGcWLiKkzfw8+qHI7zn8WYXKkLMgfGSHbgCEaR6bJpev8Cm6Rmrb19Gfd/tZvGqx9is3wg==}
+  devalue@5.6.4:
+    resolution: {integrity: sha512-Gp6rDldRsFh/7XuouDbxMH3Mx8GMCcgzIb1pDTvNyn8pZGQ22u+Wa+lGV9dQCltFQ7uVw0MhRyb8XDskNFOReA==}
 
   diff@8.0.3:
     resolution: {integrity: sha512-qejHi7bcSD4hQAZE0tNAawRK1ZtafHDmMTMkrrIGgSLl7hTnQHmKCeB45xAcbfTqK2zowkM3j3bHt/4b/ARbYQ==}
@@ -3579,8 +3579,8 @@ packages:
   tar-stream@3.1.7:
     resolution: {integrity: sha512-qJj60CXt7IU1Ffyc3NJMjh6EkuCFej46zUqJ4J7pqYlThyd9bO0XBTmcOIhSzZJVWfsLks0+nle/j538YAW9RQ==}
 
-  tar@7.5.10:
-    resolution: {integrity: sha512-8mOPs1//5q/rlkNSPcCegA6hiHJYDmSLEI8aMH/CdSQJNWztHC9WHNam5zdQlfpTwB9Xp7IBEsHfV5LKMJGVAw==}
+  tar@7.5.11:
+    resolution: {integrity: sha512-ChjMH33/KetonMTAtpYdgUFr0tbz69Fp2v7zWxQfYZX4g5ZN2nOBXm1R2xyA+lMIKrLKIoKAwFj93jE/avX9cQ==}
     engines: {node: '>=18'}
 
   teeny-request@9.0.0:
@@ -4609,7 +4609,7 @@ snapshots:
       node-fetch: 2.7.0(encoding@0.1.13)
       nopt: 8.1.0
       semver: 7.7.3
-      tar: 7.5.10
+      tar: 7.5.11
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -4644,7 +4644,7 @@ snapshots:
       write-file-atomic: 6.0.0
     optional: true
 
-  '@netlify/open-api@2.50.0':
+  '@netlify/open-api@2.52.0':
     optional: true
 
   '@netlify/runtime-utils@1.3.1':
@@ -4819,7 +4819,7 @@ snapshots:
       consola: 3.4.2
       defu: 6.1.4
       destr: 2.0.5
-      devalue: 5.6.3
+      devalue: 5.6.4
       errx: 0.1.0
       escape-string-regexp: 5.0.0
       exsolve: 1.0.8
@@ -6108,7 +6108,7 @@ snapshots:
 
   detect-libc@2.1.2: {}
 
-  devalue@5.6.3: {}
+  devalue@5.6.4: {}
 
   diff@8.0.3: {}
 
@@ -7011,7 +7011,7 @@ snapshots:
 
   netlify@13.3.5:
     dependencies:
-      '@netlify/open-api': 2.50.0
+      '@netlify/open-api': 2.52.0
       lodash-es: 4.17.23
       micro-api-client: 3.3.0
       node-fetch: 3.3.2
@@ -7189,7 +7189,7 @@ snapshots:
       cookie-es: 2.0.0
       defu: 6.1.4
       destr: 2.0.5
-      devalue: 5.6.3
+      devalue: 5.6.4
       errx: 0.1.0
       escape-string-regexp: 5.0.0
       exsolve: 1.0.8
@@ -8063,7 +8063,7 @@ snapshots:
       - bare-abort-controller
       - react-native-b4a
 
-  tar@7.5.10:
+  tar@7.5.11:
     dependencies:
       '@isaacs/fs-minipass': 4.0.1
       chownr: 3.0.0
